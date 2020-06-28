@@ -1,0 +1,39 @@
+body {
+  font-family: "Arvo", serif;
+}
+
+.height {
+  min-height: 100vh;
+}
+
+.title-underline {
+  width: 200px;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.height-80 {
+  min-height: 80vh;
+}
+
+.about-picture {
+  background-image: url(../img/about-bcg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#filler {
+  background-image: url(../img/projects-1.jpeg),
+    linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(3, 3, 3, 0.4));
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*.rounded-circle {
+  border-radius: 50% !important;
+}*/
